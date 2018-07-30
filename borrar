@@ -1,0 +1,50 @@
+- HTML incluya la metaetiqueta de la vista en el encabezado del documento. 
+- -----------------------------
+
+MOVIL
+- dispositivo móvil y agregue el mismo encabezado, títulos, contenido e información de pie de página en su archivo index.html.
+- Utilice las imágenes proporcionadas para las imágenes de galería de cartera que se muestran en las maquetas.
+- fuente de Google Fonts para el texto.
+-  diseño de su dispositivo móvil coincida con la maqueta a un tamaño de pantalla de 320 píxeles.
+
+
+
+-------------------------------------
+TABLET Y ESCRITORIO
+- tableta que tenga 768 px de ancho y un tamaño de pantalla de escritorio que tenga 1024 px de ancho.
+- enfoque basado en dispositivos móviles al escribir sus consultas de medios usando la propiedad min-width en su CSS.
+-
+
+
+---------------------------------
+REQUISITOS
+
+-diseño no tiene que ser exacto, pero el espaciado general y la disposición de los elementos debe coincidir con el diseño de las maquetas para dispositivos móviles, tabletas y computadoras de escritorio.
+-  libre de reemplazar la imagen de perfil y personalizar el texto, pero los diseños deben coincidir con las maquetas.
+
+------------------------
+- libre de reemplazar la imagen de perfil y personalizar el texto, pero los diseños deben coincidir con las maquetas.
+- Asegúrese de verificar que su código sea válido al ejecutarlo a través de un validador de HTML y CSS.
+
+	- Hay algunas excepciones que no necesita corregir:
+No se preocupe por las advertencias, solo necesitamos que verifique cualquier error que pueda haber.
+Si el validador de CSS marca el uso de calc, prefijos de proveedor o pseudo-elementos / pseudo-clases, estos errores deben ignorarse.
+Si el validador HTML señala el uso de pipe (|) en los enlaces / URL de la fuente de Google, este error también se puede ignorar.
+
+
+--------------------------
+Crédito adicional
+
+Puede expandir el proyecto de las siguientes maneras:
+
+Agregue una sección adicional a la página, como una sección de habilidades. No olvides crear un enlace funcional a tu nueva sección en el menú de navegación.
+
+Agregue al menos DOS elementos adicionales para mejorar el estilo y mejorar la cartera:
+
+Un nuevo color de fondo para la navegación y / o secciones principales del sitio.
+Cambie el color de al menos una pieza de texto.
+Agregue una fuente de google adicional que se está utilizando en la página.
+Cualquier estilo adicional para enlaces (es decir, bordes, estados de vuelo estacionario).
+Al crear su barra de navegación, use el elemento HTML5 para estructura adicional y marcado semántico.
+
+
