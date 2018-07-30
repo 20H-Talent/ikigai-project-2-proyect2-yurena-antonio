@@ -48,24 +48,15 @@ a {
 img {
 	max-width: 100%;
 }
+header img {
+	padding-left: 3em;
+	padding-right: 3em;
+}
 .col img{
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
-
-
-figcaption {
-	font-size: .9em;
-	line-height: 1.5;
-	color: #fff;
-	padding: 1em;	
-	background: rgba(19,43,102, .85);
-	
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
 
 /* ================================= 
   Base Layout Styles
@@ -82,41 +73,46 @@ figcaption {
 	margin-top: 5px;
 }
 
-	.name a,
-	.main-nav a {
-		display: block;
-		text-align: center;
-		padding: 10px 15px;
-	}
-	
-	.main-nav a {
-		font-size: .95em;
-		color: #3acec2;
-		text-transform: uppercase;
-	}
+.name a,
+.main-nav a {
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+}
 
-	.main-nav a:hover {
-		color: #093a58;
-	}
+.main-nav a {
+	font-size: .95em;
+	color: #58928d;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
 
 /* ---- Layout Containers ---- */
 
 .main-header {
 	padding-top: .5em;
 	padding-bottom: .5em;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.main-header p {
+	font-size: 1em;
 }
 
-.banner,
+/* .banner, */
 .main-footer {
 	text-align: center;
 }
 
-.banner {
+/* .banner {
 	color: #fff;
 	background: #3acec2;
 	padding: 3.2em 0;
 	margin-bottom: 60px;
-}
+} */
 
 .col {
 	padding-right: 1em;
@@ -132,27 +128,16 @@ figcaption {
 
 /* ---- Page Elements ---- */
 
-.logo {
-	width: 190px;
-}
 
 .headline {
 	margin-bottom: 0;
-}
-
-.icon-location {
-	width: 35px;
-	position: absolute;
-	top: -15px;
-	right: -15px;
-	z-index: 2;
 }
 
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
 
 	body {
 		padding-top: 68px;
@@ -195,18 +180,18 @@ figcaption {
 	.tagline {
 		font-size: 1.4em;
 	}
-
+ */
 	/* ---- Float clearfix ---- */
 
-	.clearfix::after {
+	/* .clearfix::after {
 		content: " ";
 		display: table;
 		clear: both;
 	}
 
-}
+} */
 
-@media (min-width: 1025px) {
+/* @media (min-width: 1025px) {
 	
 	.container {
 		width: 80%;
@@ -222,4 +207,4 @@ figcaption {
 		width: 30%;
 	}
 
-}
+} */
