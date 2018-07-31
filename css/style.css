@@ -144,20 +144,21 @@ p br{
 .main-footer {
 	background: #d9e4ea;
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 5em;
 }
 
 .fdleft {
 	float: left;
 	 width: 50%;
-	 margin-top: 3em;}
+	 margin-top: 1em;}
 .fdright {
 	float: right; 
 	width: 50%;
-	margin-top: 3em;}
+	margin-top: em;}
 
 .contact {
 	margin-top: .9em;
+	padding: 13px;
 }
 
 .copyright{
