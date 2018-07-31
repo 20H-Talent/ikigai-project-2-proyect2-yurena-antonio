@@ -126,11 +126,6 @@ p br{
 	padding-right: 1em;
 }
 
-/* .banner, */
-.main-footer {
-	text-align: center;
-}
-
 
 /* .banner {
 	color: #fff;
@@ -147,7 +142,8 @@ p br{
 
 .main-footer {
 	background: #d9e4ea;
-
+	text-align: center;
+	margin-top: 1em;
 }
 
 .fdleft {
