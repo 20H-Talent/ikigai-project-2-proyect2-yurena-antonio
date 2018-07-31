@@ -191,7 +191,34 @@ p br{
 		margin-bottom: 4em;
 	}
 
-
+	/* .container {
+		width: 50%;
+	} */
+	.primary, 
+	.secondary, 
+	.terciary {
+		width: 100%;
+		/* border: solid 1px red; */
+	}
+	.content-separator1,
+	.content-separator2 {
+		text-align: center;
+		width: 49%;
+	}
+	.content-separator1 p,
+	.content-separator2, p {
+		padding: 0 2em;
+	}
+	.content-separator1 {
+		float: left;
+	}
+	.content-separator2 {
+		float: right;
+	}
+	.col {
+		padding-right: 1.2em;
+		padding-left: 1.2em;
+	}
 
 	/* ---- Float clearfix ---- */
 
