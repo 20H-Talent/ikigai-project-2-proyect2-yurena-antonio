@@ -56,6 +56,10 @@ header img {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+p br{
+	margin-bottom: 160px;
+	margin-top: 1em;
+}
 
 
 /* ================================= 
@@ -107,6 +111,7 @@ header img {
 	text-align: center;
 }
 
+
 /* .banner {
 	color: #fff;
 	background: #3acec2;
@@ -122,8 +127,25 @@ header img {
 
 .main-footer {
 	background: #d9e4ea;
-	padding: 2em 0;
-	margin-top: 30px;
+
+}
+
+.fdleft {
+	float: left;
+	 width: 50%;
+	 margin-top: 3em;}
+.fdright {
+	float: right; 
+	width: 50%;
+	margin-top: 3em;}
+
+.contact {
+	margin-top: .9em;
+}
+
+.copyright{
+
+	padding: 80px;
 }
 
 /* ---- Page Elements ---- */
