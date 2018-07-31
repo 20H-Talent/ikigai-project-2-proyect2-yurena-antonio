@@ -160,59 +160,17 @@ p br{
   Media Queries
 ==================================== */
 
-/* @media (min-width: 769px) {
+ @media (min-width: 768px) {
 
-	body {
-		padding-top: 68px;
-	}
-
-	.main-header {
-		position: fixed;
-		background: #fff;
-		box-shadow: 0 1px 4px rgba(0,0,0,.4);
-		width: 100%;
-		top: 0;
-		z-index: 1000;
-	}
-
-	.container {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.name,
-	.col {
-		float: left;
-	}
-
-	.primary,
-	.secondary,
-	.tertiary {
-		width: 50%;
-	}
-
-	.main-nav {
-		float: right;
-	}
-
-	.main-nav li {
-		display: inline-block;
-		margin-left: 15px;
-	}
-
-	.tagline {
-		font-size: 1.4em;
-	}
- */
 	/* ---- Float clearfix ---- */
 
-	/* .clearfix::after {
+	.clearfix::after {
 		content: " ";
 		display: table;
 		clear: both;
 	}
 
-} */
+} 
 
 /* @media (min-width: 1025px) {
 	
