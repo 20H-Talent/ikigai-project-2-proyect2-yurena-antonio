@@ -51,6 +51,8 @@ img {
 header img {
 	padding-left: 3em;
 	padding-right: 3em;
+	padding-bottom: 2em;
+	padding-top: 2em;
 }
 .col img{
 	margin-top: 1em;
@@ -69,29 +71,44 @@ p br{
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.25em;
+	font-size: 1.70em;
 	margin: 0;
+	margin-top: 0.50em;
+	margin-bottom: 1em;
+
 }
 
 .main-nav {
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
-.name a,
+/* .name a, */
 .main-nav a {
 	display: block;
 	text-align: center;
-	padding: 10px 15px;
+	padding: 5px 15px;
 }
 
 .main-nav a {
-	font-size: .95em;
-	color: #58928d;
+	font-size: .80em;
+	color: #2c3333;
 	text-transform: uppercase;
+	font-weight: bold;
+}
+.main-nav li {
+	box-shadow: 2px 2px 0.5px black;
+	border: 1px rgb(96, 128, 96) solid;
+	background: linear-gradient( rgb(219, 219, 228), rgb(111, 170, 83), rgba(129, 184, 104, .5));
+	background-color: black;
+	margin: 1em 0em 1em 3em;
+	width: 65%;
+	border-radius: 0% 13% 0% 13%;
 }
 
+
 .main-nav a:hover {
-	color: #093a58;
+	color: #313115;
+	background: linear-gradient(rgba(207, 189, 150, .3), rgba(219, 146, 9, 0.48));
 }
 
 /* ---- Layout Containers ---- */
@@ -104,6 +121,9 @@ p br{
 }
 .main-header p {
 	font-size: 1em;
+	text-align: center;
+	padding-left: 0.05em;
+	padding-right: 1em;
 }
 
 /* .banner, */
