@@ -123,6 +123,7 @@ p br{
 	padding-bottom: .5em;
 	padding-right: 1em;
 	padding-left: 1em;
+	margin-bottom: 2em;
 }
 .main-header p {
 	font-size: 1em;
@@ -161,6 +162,36 @@ p br{
 ==================================== */
 
  @media (min-width: 768px) {
+
+	.main-nav li {
+		display: inline-block;
+		width: 17%;
+		margin: 1em -2em 1em 3em;
+	}
+	.main-nav {
+		padding-left: 15%;
+	}
+
+	header img {
+		float: right;
+		padding: 2em 0;
+		width: 37%;
+	}
+	.main-header p {
+		float: left;
+		width: 63%;
+		padding: 13.95px;
+		text-align: left;
+		font-size:  1.05em;
+	}
+	.name {
+		margin-bottom: -0.5em;
+	}
+	.main-header {
+		margin-bottom: 4em;
+	}
+
+
 
 	/* ---- Float clearfix ---- */
 
