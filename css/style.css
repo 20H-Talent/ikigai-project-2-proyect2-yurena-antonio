@@ -21,6 +21,7 @@ p {
 footer ul {
 	display: block;
 	border-top: dotted #9e9e9e 2px;
+	padding-bottom: 2em;
 }
 footer ul li{
 
