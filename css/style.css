@@ -14,12 +14,9 @@ body {
 }
 
 p {
-	font-size: .80em;
+	font-size: .90em;
 	margin-bottom: 1.8em;
 	text-align: center;
-}
-p span{
-	display: block;
 }
 
 footer ul {
@@ -78,7 +75,12 @@ header img {
 .quaternary p,
 .quinary p,
 .senary p {
-	padding: 0 3em;
+	padding: 0 1em;
+}
+.quaternary p,
+.quinary p, 
+.senary p {
+	margin-bottom: -12px;
 }
 
 /* ================================= 
