@@ -163,7 +163,14 @@ header img {
 	margin-bottom: -12px;
 }
 
-
+.quaternary img,
+.quinary img,
+.senary img {
+	margin-top: 2em;
+}
+.terciary p {
+	margin-bottom: 0em;
+}
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
