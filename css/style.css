@@ -220,7 +220,6 @@ header img {
 		padding-left: 0%;
 		margin: 0 14%;
 		/* background-color: rgba(0, 0, 0, .5); */
-
 	}
 
 	header img {
@@ -257,25 +256,25 @@ header img {
 	.quaternary,
 	.quinary,
 	.senary {
-		width: 100%;
-		/* border: solid 1px red; */
+		width: 50%;
+		height: 473px;
 	}
-	/* .content-separator1,
-	.content-separator2 {
-		text-align: center;
-		width: 49%;
-		height: 536px;
-	} */
-	/* .content-separator1 p,
-	.content-separator2 p {
-		padding: 0 4em;
+
+	.secondary,
+	.quaternary,
+	.senary {
+		float: right;
 	}
-	.content-separator1 {
+	.primary,
+	.terciary,
+	.quinary {
 		float: left;
 	}
-	.content-separator2 {
-		float: right;
-	} */
+
+	.quaternary img {
+		margin-top: 4%;
+		
+	}
 	.col {
 		padding-right: 1.2em;
 		padding-left: 1.2em;
