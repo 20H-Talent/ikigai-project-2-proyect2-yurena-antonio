@@ -168,7 +168,7 @@ header img {
 .nav-mobile {
 	width: 45%;
     float: right;
-    margin-top: -55px;
+    margin-top: -57px;
 }
 .nav-big-devices {
 	display: none;
@@ -217,7 +217,8 @@ header img {
 		margin: 1em -2em 1em 3em;
 	}
 	.main-nav {
-		padding-left: 15%;
+		padding-left: 0%;
+		margin: 0 14%;
 		/* background-color: rgba(0, 0, 0, .5); */
 
 	}
@@ -238,6 +239,7 @@ header img {
 		margin-bottom: -0.5em;
 		padding-top: 1em;
 		margin-top: 0;
+		margin-left: -0.5em;
 	}
 	.main-header {
 		margin-bottom: 4em;
@@ -287,9 +289,17 @@ header img {
 	}
 	.nav-big-devices {
 		display: block;
+		width: 48%;
+		margin-left: 24em;
+		margin-top: -5.5em;
+		margin-bottom: 1em;
 	}
 	.nav-big-devices li {
 		display: inline-block;
+
+	}
+	#name-student {
+		width: 24%;
 	}
 
 } 
