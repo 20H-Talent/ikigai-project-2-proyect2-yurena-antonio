@@ -31,6 +31,10 @@ footer ul li{
 	margin-top: 2em;
 	margin-left: 1em;
 }
+footer p span {
+	font-weight: bold;
+}
+
 h2,
 h3,
 a {
@@ -61,6 +65,9 @@ header img {
 	padding-bottom: 2em;
 	padding-top: 2em;
 }
+
+
+
 /* p br{
 	margin-bottom: 160px;
 	margin-top: 1em;
