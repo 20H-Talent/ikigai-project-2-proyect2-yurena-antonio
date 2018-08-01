@@ -61,27 +61,10 @@ header img {
 	padding-bottom: 2em;
 	padding-top: 2em;
 }
-.col img{
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
 /* p br{
 	margin-bottom: 160px;
 	margin-top: 1em;
 } */
-.primary p,
-.secondary p,
-.terciary p,
-.quaternary p,
-.quinary p,
-.senary p {
-	padding: 0 1em;
-}
-.quaternary p,
-.quinary p, 
-.senary p {
-	margin-bottom: -12px;
-}
 
 /* ================================= 
   Base Layout Styles
@@ -126,7 +109,7 @@ header img {
 
 
 .main-nav a:hover {
-	color: #313115;
+	color: #222210;
 	background: linear-gradient(rgba(207, 189, 150, .3), rgba(219, 146, 9, 0.48));
 }
 
@@ -150,6 +133,10 @@ header img {
 	padding-right: 1em;
 	padding-left: 1em;
 }
+.col img{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 
 .main-footer {
 	text-align: center;
@@ -160,6 +147,20 @@ header img {
 .contact {
 	margin-top: .9em;
 	padding: 13px;
+}
+
+.primary p,
+.secondary p,
+.terciary p,
+.quaternary p,
+.quinary p,
+.senary p {
+	padding: 0 1em;
+}
+.quaternary p,
+.quinary p, 
+.senary p {
+	margin-bottom: -12px;
 }
 
 
