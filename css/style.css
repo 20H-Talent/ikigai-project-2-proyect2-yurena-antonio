@@ -14,9 +14,12 @@ body {
 }
 
 p {
-	font-size: .95em;
+	font-size: .80em;
 	margin-bottom: 1.8em;
 	text-align: center;
+}
+p span{
+	display: block;
 }
 
 footer ul {
