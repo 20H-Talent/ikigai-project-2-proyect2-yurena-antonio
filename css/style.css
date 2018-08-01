@@ -171,6 +171,8 @@ p br{
 	}
 	.main-nav {
 		padding-left: 15%;
+		/* background-color: rgba(0, 0, 0, .5); */
+
 	}
 
 	header img {
@@ -187,11 +189,16 @@ p br{
 	}
 	.name {
 		margin-bottom: -0.5em;
+		padding-top: 1em;
+		margin-top: 0;
 	}
 	.main-header {
 		margin-bottom: 4em;
 	}
-
+	.name,
+	.main-nav {
+		width: 100%;
+	}
 	/* .container {
 		width: 50%;
 	} */
