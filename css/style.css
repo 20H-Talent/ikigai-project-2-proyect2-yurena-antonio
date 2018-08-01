@@ -149,13 +149,14 @@ p br{
 }
 
 
+/* ---- Float clearfix ---- */
 
-/* ---- Page Elements ---- */
-
-
-.headline {
-	margin-bottom: 0;
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
 }
+
 
 /* ================================= 
   Media Queries
@@ -221,13 +222,6 @@ p br{
 		padding-left: 1.2em;
 	}
 
-	/* ---- Float clearfix ---- */
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
 
 } 
 
