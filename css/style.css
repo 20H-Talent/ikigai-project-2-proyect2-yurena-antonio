@@ -204,10 +204,11 @@ p br{
 	.content-separator2 {
 		text-align: center;
 		width: 49%;
+		height: 536px;
 	}
 	.content-separator1 p,
-	.content-separator2, p {
-		padding: 0 2em;
+	.content-separator2 p {
+		padding: 0 4em;
 	}
 	.content-separator1 {
 		float: left;
