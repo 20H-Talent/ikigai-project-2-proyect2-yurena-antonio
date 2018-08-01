@@ -14,14 +14,12 @@ body {
 }
 
 p {
-	font-size: .90em;
+	font-size: .95em;
 	margin-bottom: 1.8em;
 	text-align: center;
 }
 
 footer ul {
-	display: block;
-	border-top: dotted #9e9e9e 2px;
 	padding-bottom: 2em;
 }
 footer ul li{
@@ -156,6 +154,26 @@ header img {
 	padding: 13px;
 }
 
+#name-student {
+	width: 41%;
+	font-size: 1.05em;
+}
+#email {
+	border-bottom: #bdbdbd 1px solid;
+    padding-bottom: 67px;
+    width: 88%;
+	margin-left: 6%;
+	margin-top: -1em; 
+}
+.nav-mobile {
+	width: 45%;
+    float: right;
+    margin-top: -55px;
+}
+.nav-big-devices {
+	display: none;
+}
+
 .primary p,
 .secondary p,
 .terciary p,
@@ -264,6 +282,16 @@ header img {
 	.contact {
 		padding: 1em 9em;
 	}
+	.nav-mobile {
+		display: none;
+	}
+	.nav-big-devices {
+		display: block;
+	}
+	.nav-big-devices li {
+		display: inline-block;
+	}
+
 } 
 
  @media (min-width: 1024px) {
