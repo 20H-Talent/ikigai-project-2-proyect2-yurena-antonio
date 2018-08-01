@@ -16,6 +16,7 @@ body {
 p {
 	font-size: .95em;
 	margin-bottom: 1.8em;
+	text-align: center;
 }
 
 footer ul {
@@ -64,11 +65,18 @@ header img {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
-p br{
+/* p br{
 	margin-bottom: 160px;
 	margin-top: 1em;
+} */
+.primary p,
+.secondary p,
+.terciary p,
+.quaternary p,
+.quinary p,
+.senary p {
+	padding: 0 3em;
 }
-
 
 /* ================================= 
   Base Layout Styles
