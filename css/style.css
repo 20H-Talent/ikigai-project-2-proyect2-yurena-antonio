@@ -4,6 +4,7 @@
 
 * {
 	box-sizing: border-box;
+	/* border: #000000 solid 1px; */
 }
 
 body {
@@ -311,8 +312,9 @@ header img {
 		margin: 1em -2em 1em 3em;
 	}
 	.main-nav {
-		padding-left: 53%;
-		width: 116%;
+		padding-left: 47%;
+		width: 105%;
+		margin-top: 1%;
 		/* background-color: rgba(0, 0, 0, .5); */
 
 	}
@@ -325,56 +327,60 @@ header img {
 	.main-header p {
 		float: left;
 		width: 63%;
-		padding: 13.95px;
+		padding: .6em;
 		text-align: left;
 		font-size:  1.05em;
+		padding-left: 0px;
+	}
+	.container{
+		width: 100%;
 	}
 	.name {
-		margin-bottom: -0.5em;
+		margin-bottom: -2.3em;
 		padding-top: 1em;
 		margin-top: 0;
+		margin-left: -7em;
 	}
 	.main-header {
 		margin-bottom: 4em;
+		margin-left: 1em;
 	}
-/*	.name,
-	.main-nav {
-		width: 100%;
-	} */
-	/* .container {
-		width: 50%;
-	} */
-	.primary, 
-	.secondary, 
-	.terciary,
-	.quaternary,
-	.quinary,
-	.senary {
-		width: 100%;
-		/* border: solid 1px red; */
-	}
-	/* .content-separator1,
-	.content-separator2 {
-		text-align: center;
+
+	.col {
 		width: 33%;
-		height: 536px;
+		height: 473px;
+		display: inline-block
 	}
-	.content-separator1 p,
-	.content-separator2 p {
-		padding: 0 4em;
+	.terciary{
+		float: right;
 	}
-	.primary col .content-separator1 {
+	.primary,
+	.secondary{
 		float: left;
 	}
-	.secondary col .content-separator2{
+
+	.quaternary{
+		float: left;
+	}
+	.quinary{
+		float: left;
+		margin-top: -1.3em;
+	}
+
+	.senary{
 		float: right;
-	} */
-/*	.col {
-		padding-right: 1.2em;
-		padding-left: 1.2em;
-	} */
+		margin-top: -1.3em;
+	}
+	
 
 	.contact {
 		padding: 1em 9em;
 	}
-} 
+	.nav-big-devices {
+		display: block;
+		width: 83%;
+		margin-left: 36sem;
+		margin-top: -5.5em;
+		margin-bottom: 1em;
+	}
+ }
