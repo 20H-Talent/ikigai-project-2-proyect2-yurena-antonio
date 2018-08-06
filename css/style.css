@@ -59,8 +59,6 @@ img {
 	max-width: 100%;
 }
 header img {
-	padding-left: 3em;
-	padding-right: 3em;
 	padding-bottom: 2em;
 	padding-top: 2em;
 }
@@ -79,11 +77,9 @@ header img {
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.70em;
-	margin: 0;
+	font-size: 1.4em;
 	margin-top: 0.50em;
 	margin-bottom: 1em;
-
 }
 
 .main-nav {
@@ -94,22 +90,19 @@ header img {
 .main-nav a {
 	display: block;
 	text-align: center;
-	padding: 5px 15px;
-}
-
-.main-nav a {
 	font-size: .80em;
 	color: #2c3333;
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
 .main-nav li {
 	box-shadow: 2px 2px 0.5px black;
 	border: 1px rgb(96, 128, 96) solid;
 	background: linear-gradient( rgb(219, 219, 228), rgb(111, 170, 83), rgba(129, 184, 104, .5));
 	background-color: black;
-	margin: 1em 0em 1em 3em;
-	width: 65%;
+	margin: 1em 0em 1em 0em;
+	width: 100%;
 	border-radius: 0% 13% 0% 13%;
 }
 
@@ -131,8 +124,6 @@ header img {
 .main-header p {
 	font-size: 1em;
 	text-align: center;
-	padding-left: 0.05em;
-	padding-right: 1em;
 }
 
 .col {
@@ -204,7 +195,9 @@ header img {
 	display: table;
 	clear: both;
 }
-
+header .container {
+	padding: 0 10%;
+}
 
 /* ================================= 
   Media Queries
@@ -219,10 +212,15 @@ header img {
 	}
 	.main-nav {
 		padding-left: 0%;
-		margin: 0 14%;
 		/* background-color: rgba(0, 0, 0, .5); */
 	}
-
+	header .container .name,
+	header .container .main-nav{
+		padding: 0 10%;
+	}
+	header .container {
+		margin: 0 4%;
+	}
 	header img {
 		float: right;
 		padding: 2em 0;
@@ -239,7 +237,6 @@ header img {
 		margin-bottom: -0.5em;
 		padding-top: 1em;
 		margin-top: 0;
-		margin-left: -0.5em;
 	}
 	.main-header {
 		margin-bottom: 4em;
